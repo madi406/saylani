@@ -1,0 +1,442 @@
+body{
+    font-family: sans-serif;
+}
+.first{
+    background-color: #1fc8db;
+    background-image: linear-gradient(90deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.active1{
+    padding-left: 40px;
+    margin-left: 40px;
+    
+
+}
+a>i{
+    
+ margin-left: 15px;
+ color: white
+}
+/* .social col{
+    width: 10px;
+    border: none;
+} */
+
+
+.p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-right: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+.box{
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    font-size: 12px;
+    width: 25px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.box:hover{
+    background-color: #6ada6a; 
+    color: white;
+}
+.boxi{
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    font-size: 12px;
+    width: 100px;
+    height: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.boxi:hover{
+    background-color: #6ada6a; 
+    color: white;
+}
+.boxio{
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.boxio:hover{
+    background-color: #6ada6a; 
+    color: white;
+}
+ 
+.manu-bar{
+    box-sizing: border-box;
+    height: 56px;
+    background-color: #f7f8fa;
+    
+    
+    
+}
+.manu-bar img{
+    width: 180px;
+}
+.manu-bar ul{
+    list-style: none;
+    display: inline-flex;
+    color: black;
+
+}
+.manu-bar ul li{
+    width:;
+    padding-top: 8px !important;
+    margin-top: 12px;
+    /* margin: 8px; */
+    margin-right: 2px;
+    margin-left: 16px;
+    padding: 10px;
+    font-size: 12px;
+
+   
+   
+}
+.manu-bar ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: bold;
+    padding-left: 4px;
+    
+}
+.active, .manu-bar ul li:hover{
+    background: yellowgreen;
+    /* color: white !important; */
+    border-radius: 30px;
+    height: 38px;
+    color: white !important;
+    
+
+}
+.active, .manu-bar ul li a:hover{
+    
+    color: white;
+
+}
+.fa-angle-down {
+    
+    float: right !important;
+    color: black;
+}
+.fa-angle-down:hover{
+    color: white;
+}
+.sub-manu-1{
+    display: none;
+}
+.manu-bar ul li:hover .sub-manu-1{
+    display: block;
+    margin-left: 4px;
+    position: absolute;
+    background-image: linear-gradient(90deg, blue 18%, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    margin-top: 16px;
+    
+    font-size: 4px;
+    
+    margin-left: -16px;
+}
+.manu-bar ul li:hover .sub-manu-1 ul{
+    display: block;
+    
+}
+.manu-bar ul li:hover .sub-manu-1 ul li{
+    padding-top: 0px;
+    padding-left: 6px;
+    height: 34px;
+    margin: 0px;
+    width: 180px;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+    
+    
+}
+.manu-bar ul li:hover .sub-manu-1 ul li:hover{
+    background-color: yellowgreen !important;
+}
+
+.fa-angle-right{
+    float: right !important;
+}
+.sub-manu-2{
+    display: none;
+}
+.hover-me:hover .sub-manu-2{
+    position: absolute;
+    display: block;
+    margin-top: -22px;
+    margin-left: 176px;
+    background-image: linear-gradient(90deg, blue 18%, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.sub-manu-3{
+    display: none;
+}
+.hover-on:hover .sub-manu-3{
+    position: absolute;
+    display: block;
+    margin-top: -22px;
+    margin-left: 176px;
+    background-image: linear-gradient(90deg, blue 18%, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.sub-manu-4{
+    display: none;
+
+}
+.manu-bar ul li:hover .sub-manu-4{
+    display: block;
+    margin-left: 4px;
+    position: absolute;
+    background-image: linear-gradient(90deg,  blue 18%, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    margin-top: 16px;
+    
+    font-size: 4px;
+    margin-left: 4px;
+    margin-left: -130px;
+}
+.manu-bar ul li:hover .sub-manu-4 ul{
+    display: block;
+    
+}
+.manu-bar ul li:hover .sub-manu-4 ul li{
+    padding-top: 0px;
+    padding-left: 6px;
+    
+    margin:0px;
+    width: 180px;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+    
+}
+.manu-bar ul li:hover .sub-manu-4 ul li:hover{
+    background-color: yellowgreen !important;
+}
+.sub-manu-22{
+    display: none;
+}
+.hover-me2:hover .sub-manu-22{
+    position: absolute;
+    display: block;
+    margin-top: -22px;
+    margin-left: -226px;
+    background-image: linear-gradient(90deg,blue 18%, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+.marquee{
+    border: 1px solid cornflowerblue;
+    width: 1020px;
+    margin-top: 14px;
+    overflow: hidden;
+    background-color: #316DC3;
+    color:white;
+    font-size: 14px;
+    
+
+}
+.marquee span{
+    color: #00ff00;
+
+}
+.marquee a{
+    color:blue;
+}
+.center1{
+    text-align: center;
+    box-sizing: content-box;
+    background: #f7f8fa;
+    height: 800px;
+    margin-top: 10px;
+    
+}
+
+
+ .para{
+    
+     /* margin-left: 84px;
+     margin-right:84px; */
+     padding-left: 130px;
+     padding-right: 130px;
+     padding-top:  20px;
+     color:rgb(102, 102, 102);
+     line-height: 25px; 
+     text-align: justify;
+     font-size: 15px;
+ }
+
+ .blue{
+    text-align: center;
+    margin-top: px;
+    padding-top: ;
+     border: rgb(49, 109, 195);
+    box-sizing: border-box;
+     width: 100%;
+    height: 300;
+     background-color:  rgb(33, 81, 241);
+ }
+ .img1{
+     height: 40px;
+     max-width: 100%;  
+     margin-top: 90px;
+    
+}
+.col1{
+    color: white;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+    
+}
+.font{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Merriweather', serif;
+    
+}
+.font1{
+    font-size: 14px;
+    color: #00ff00;
+    font-family: 'Merriweather', serif;
+   
+}
+.one{
+    color: green;
+    background-color: green;
+   height: 2px;
+    width:30px;
+}
+
+.center2{
+    text-align: center;
+    background-color: #f7f8fa;
+    height: 200px;
+
+}
+.table1{
+    height: 450px;
+    background-color: #f7f8fa;
+    text-align: center;
+   
+   
+}
+.table2{
+    text-align: center;
+    
+}
+.color-blue{
+    color: rgb(49, 109, 195);
+    padding-top: 10px;
+    font-family: serif;
+}
+
+.col-sm{
+    width: 200px;
+}
+
+.imgii1{
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+    
+  }
+  
+  /* Add a hover effect (blue shadow) */
+.imgii1:hover {
+    box-shadow: 0 0 2px 1px rgba(97, 143, 158, 0.5) !important;
+  }
+  .imgii2{
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+    
+  }
+  
+  /* Add a hover effect (blue shadow) */
+.imgii2:hover {
+    box-shadow: 0 0 2px 1px rgba(97, 143, 158, 0.5) !important;
+  }
+  .imgii3{
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+    
+  }
+  
+  /* Add a hover effect (blue shadow) */
+.imgii3:hover {
+    box-shadow: 0 0 2px 1px rgba(97, 143, 158, 0.5) !important;
+  }
+  .imgii4{
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+    
+  }
+  
+  /* Add a hover effect (blue shadow) */
+.imgii4:hover {
+    box-shadow: 0 0 2px 1px rgba(97, 143, 158, 0.5) !important;
+  }
+  .dark{
+   background-color: black;
+   box-sizing: content-box;
+   display: block;
+   height: 380px;
+
+  }
+  .dark p {
+      color: darkgray;
+      text-align: left;
+      padding-left: 40px;
+      padding-top: 98px;
+      font-size: 14px;
+      font-family: sans-serif;
+  }
+  .dark ul{
+      text-decoration: none;
+      list-style: none;
+      text-align: left;
+      color: darkgray;
+      font-size: 14px;
+      font-family: sans-serif;
+      padding-top: 0px;
+     
+
+  }
+  
+  .dark ul li i{
+      color: green;
+      
+  }
+  
+  .blue-line{
+      background-color: rgb(49, 109, 217);
+      width: 100%;
+      height: 40px;
+      margin-top: 0px;
+  }
+ .liner{
+     background-image: linear-gradient(90deg, green 30%, orange 60%);
+ }
+ .liner2{
+     background-image: linear-gradient(90deg, green 20%, orange 20%, Gray 75% );
+ }
+
+
+
+
+ 
